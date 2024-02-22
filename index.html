@@ -10,46 +10,108 @@
 
 <body>
     <div class="container mx-auto">
-    <div class="navbar flex justify-between items-center p-4">
-        <div class="flex justify-center items-center md:order-2">
-            <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
-                <div class="line h-0.5 w-6 my-1 bg-black"></div>
-                <div class="line h-0.5 w-6 my-1 bg-black"></div>
-                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        <div class="navbar flex justify-between items-center p-4">
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                </div>
+                <div class="search md:hidden w-4 mr-6"><img src="search.svg" alt=""></div>
             </div>
-            <div class="search md:hidden">Searchicon</div>
-        </div>
-        <div class="logo text-center flex md:order-1">
-            <div class="px-4"><img src="image3.png" alt=""></div>
-            <div class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:-translate-x-0">
-                <div class="feaitem">Microsoft 365</div>
-                <div class="feaitem">Office</div>
-                <div class="feaitem">Windows</div>
-                <div class="feaitem">Surface</div>
-                <div class="feaitem">Xbox</div>
-                <div class="feaitem">Support</div>
+            <div class="logo text-center flex md:order-1">
+                <div class="px-4 flex justify-center"><img class="w-[50%]" src="image3.png" alt=""></div>
+                <div
+                    class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:mx-4 md:items-center md:space-x-6 -translate-x-96 md:-translate-x-0">
+                    <div class="feaitem hover:underline hover:underline-offset-8 cursor-pointer">Microsoft 365</div>
+                    <div class="feaitem hover:underline hover:underline-offset-8 cursor-pointer">Office</div>
+                    <div class="feaitem hover:underline hover:underline-offset-8 cursor-pointer">Windows</div>
+                    <div class="feaitem hover:underline hover:underline-offset-8 cursor-pointer">Surface</div>
+                    <div class="feaitem hover:underline hover:underline-offset-8 cursor-pointer">Xbox</div>
+                    <div class="feaitem hover:underline hover:underline-offset-8 cursor-pointer">Support</div>
+                </div>
+            </div>
+            <div class="cart text-center md:order-3 flex">
+                <div class="search hidden md:block mr-6">All Microsoft </div>
+                <img class="hidden md:block w-4 mr-6" src="search.svg" alt="">
+                <div class="flex pt-1">
+                    <img class=" w-4 h-4  mr-6" src="shopping-cart-icon-png-5.jpg" alt="">
+                    <img class=" w-4 h-4 mr-6" src="account.png" alt="">
+                </div>
             </div>
         </div>
-        <div class="cart text-center md:order-3 flex">
-            <div class="search hidden md:block">All Microsoft Searchicon</div>
-            <div>
-                Cart Account
+
+        <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]">
+            <div class="left flex flex-col justify-center items-center md:items-baseline py-12 space-y-6">
+                <h1 class="text-2xl font-medium md:text-4xl mx-5">Surface Pro 9</h1>
+                <p class="w-3/4 mx-5 text-center md:text-left">Tablet versatility and laptop power — all in one
+                    ultra-portable device</p>
+                <button class="bg-black text-white px-4 py-2 my-6 font-bold">Shop Now ></button>
+            </div>
+            <div class="right">
+                <img class="w-[28rem] md:w-[32rem]" src="image5.jpg" alt="">
             </div>
         </div>
+
+        <div class="promo space-y-6 flex flex-col lg:flex-row justify-center">
+            <div class="item flex items-center mx-4 mt-6 space-x-2 md:flex-col">
+                <img class="w-11" src="Link-List-Icons-Microsoft-365.svg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center md:text-sm my-4">Choose your microsoft 365</span>
+            </div>
+
+            <div class="item flex items-center mx-4 space-x-2 md:flex-col">
+                <img class="w-11" src="games.svg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center md:text-sm my-4">Shop Xbox games and consoles</span>
+            </div>
+
+            <div class="item flex items-center mx-4 space-x-2 md:flex-col">
+                <img class="w-11" src="Link-List-Icons-Microsoft-365.svg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center md:text-sm my-4">Get Windows 11</span>
+            </div>
+
+            <div class="item flex items-center mx-4 space-x-2 md:flex-col">
+                <img class="w-11" src="surface.svg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center md:text-sm my-4">Explore Surface devices</span>
+            </div>
+        </div>
+
+        <div class="shopping-section flex-col lg:flex-row justify-center items-center">
+            <div class="box1 box" >
+                <div class="box-content">
+                    <div class="box-image" style="background-image: url('img1.jpg');"></div>
+                    <p class="desc">Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11.</p>
+                    <p class="cursor-pointer hover:underline hover:underline-offset-8">Learn more!</p>
+                    
+                </div>
+            </div>
+        
+            <div class="box2 box"> 
+                <div class="box-content">
+                <div class="box-image" style="background-image: url('img2.jpg');"></div>
+                <p class="desc">Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows 11.</p>
+                <p class="cursor-pointer hover:underline hover:underline-offset-8">Learn more!</p>
+               
+            </div>
+        </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <div class="box-image" style="background-image: url('img3.jpg');"></div>
+                    <p class="desc"> The fastest more powerful, XBOR ever</p>
+                    <p class="cursor-pointer hover:underline hover:underline-offset-8">Learn more!</p>
+
+                </div></div>
+        
+                <div class="box4 box">
+                    <div class="box-content">
+                        <div class="box-image" style="background-image: url('img4.jpg');"></div>
+                        <p class="desc">Get online protection, secure cloud storage and innovative apps designed to fit your needs – all in one plan.</p>
+                        <p class="cursor-pointer hover:underline hover:underline-offset-8">Learn more!</p>
+                    </div>
+                </div>
+        </div>
+
     </div>
 
-    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]">
-        <div class="left flex flex-col justify-center items-center md:items-baseline py-12">
-            <h1 class="text-2xl font-medium md:text-4xl mx-5">Surface Pro 9</h1>
-            <p class="w-3/4 mx-5 text-center md:text-left">Tablet versatility and laptop power — all in one ultra-portable device</p>
-            <button class="bg-black text-white px-4 py-2 my-6 font-bold">Shop Now ></button>
-        </div>
-        <div class="right">
-            <img class="w-48 md:w-64" src="image5.jpg" alt="">
-        </div>
-    </div>
-    </div>
-    
 
 </body>
 
